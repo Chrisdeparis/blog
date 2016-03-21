@@ -1,0 +1,75 @@
+[
+    {
+        "age": 0, 
+        "id": "daft-funk", 
+        "imageUrl": "img/articles/Maneli-Jamal.jpg", 
+        "youtubeUrl": "lien youtube",
+        "name": "Maneli",
+        "firstname": "Jamal",
+        "title": "Daft funk",
+        "snippet": "Du groove de la rythmique, du lourd",
+        "date": "7 Mars 2016", 
+        "content": "Award winning guitarist Maneli Jamal has wowed audiences around the world with his visual style of playing acoustic guitar. He incorporates many musical textures in his performances while keeping rhythm with his two hands but you'll swear he has a trio with him. You've got to visually see him live to experience what you thought is possible with the acoustic guitar. He has over 4 million video views and 50,000+ followers on social media sites making him an artist to watch for."
+
+    }, 
+    {
+        "age": 1, 
+        "id": "santana-europa", 
+        "imageUrl": "img/articles/santana.jpg", 
+        "name": "Santana", 
+        "firstname": "Carlos",
+        "title": "Europa",
+        "snippet": "Quand j'entends cette musique, les mots me manquent...",
+        "date": "8 Mars 2016"
+    }, 
+    {
+        "age": 2, 
+        "id": "little-wing", 
+        "imageUrl": "img/articles/jimmy-hendrix.jpg", 
+        "name": "Hendrix",
+        "firstname": "Jimi",
+        "title": "Little Wing", 
+        "snippet": "Mon titre préféré d'Hendrix est une reprise Little Wing",
+        "date": "10 Mars 2016"
+    }, 
+    {
+        "age": 3, 
+        "id": "beat-it", 
+        "imageUrl": "img/articles/miguel-rivera.jpg", 
+        "name": "Rivera", 
+        "firstname": "Miguel",
+        "title": "Beat it !",
+        "snippet": "Un très bel arrangement du tube planétaire",
+        "date": "12 Mars 2016"
+    }, 
+    {
+        "age": 4, 
+        "id": "terrace", 
+        "imageUrl": "img/articles/greg-howe.jpg", 
+        "name": "Howe", 
+        "firstname": "Greg",
+        "title": "The terrace",
+        "snippet": "Un très grand shredder je préfère ces derniers albums fuzion",
+        "date": "13 Mars 2016"
+    }, 
+    {
+        "age": 5,  
+        "id": "affirmation", 
+        "imageUrl": "img/articles/George-Benson.jpg", 
+        "name": "Benson", 
+        "firstname": "George ",
+        "title": "Affirmation",
+        "snippet": "Un groove et une vitesse d'éxécution impressionante",
+        "date": "14 Mars 2016"
+    }, 
+    {
+        "age": 6, 
+        "id": "all-along-came-betty", 
+        "imageUrl": "img/articles/pat-martino.jpg", 
+        "name": "Martino",
+        "firstname": "Pat",
+        "title": "All along came Betty",
+        "snippet": "Un maître du jazz beebop",
+        "date": "15 Mars 2016"
+    }
+]
