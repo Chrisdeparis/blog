@@ -1,0 +1,33 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2">
+      <!--Sidebar content-->
+
+      Search: <input ng-model="query">
+      Sort by:
+      <select ng-model="orderProp">
+        <option value="title">Title</option>
+        <option value="-age">Newest</option>
+        <option value="age">Oldest</option>
+        <option value="name">Artist</option>
+      </select>
+
+    </div>
+    <div class="col-md-10">
+      <!--Body content-->
+
+      <ul class="articles">
+        <li ng-repeat="article in articles | filter:query | orderBy:orderProp" class="thumbnail">
+          <a href="#/articles/{{article.id}}" class="thumb"><img ng-src="{{article.imageUrl}}" style="width: 250px"></a>
+          <h1 class="post-heading">{{article.firstname}} {{article.name}}</h1>
+          <h1><a href="#/articles/{{article.id}}">{{article.title}}</a></h1>
+          <p class="post-preview">{{article.snippet}}</p><br>
+          <p>{{article.content}}</p>
+          <div class="post-subtitle">Posté par Maes, le {{article.date}}</div>
+          <iframe>{{article.youtubeUrl}}</iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/oLTcSDygMIo" frameborder="0" allowfullscreen>{{https://www.youtube.com/embed/oLTcSDygMIo}}</iframe>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
