@@ -1,0 +1,188 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@3.3.12
+3 info using node@v5.5.0
+4 verbose config Skipping project config: C:\Users\Christian/.npmrc. (matches userconfig)
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly install normalizeTree
+9 silly loadCurrentTree Finishing
+10 silly loadIdealTree Starting
+11 silly install loadIdealTree
+12 silly cloneCurrentTree Starting
+13 silly install cloneCurrentTreeToIdealTree
+14 silly cloneCurrentTree Finishing
+15 silly loadShrinkwrap Starting
+16 silly install loadShrinkwrap
+17 silly loadShrinkwrap Finishing
+18 silly loadAllDepsIntoIdealTree Starting
+19 silly install loadAllDepsIntoIdealTree
+20 silly fetchOtherPackageData bootstrap@github:twbs/bootstrap%40%5E3.3.6
+21 silly cache add args [ 'bootstrap@github:twbs/bootstrap%40%5E3.3.6', null ]
+22 verbose cache add spec bootstrap@github:twbs/bootstrap%40%5E3.3.6
+23 silly cache add parsed spec Result {
+23 silly cache add   raw: 'bootstrap@github:twbs/bootstrap%40%5E3.3.6',
+23 silly cache add   scope: null,
+23 silly cache add   name: 'bootstrap',
+23 silly cache add   rawSpec: 'github:twbs/bootstrap%40%5E3.3.6',
+23 silly cache add   spec: 'github:twbs/bootstrap%40%5E3.3.6',
+23 silly cache add   type: 'hosted',
+23 silly cache add   hosted:
+23 silly cache add    { type: 'github',
+23 silly cache add      ssh: 'git@github.com:twbs/bootstrap%40%5E3.3.6.git',
+23 silly cache add      sshUrl: 'git+ssh://git@github.com/twbs/bootstrap%40%5E3.3.6.git',
+23 silly cache add      httpsUrl: 'git+https://github.com/twbs/bootstrap%40%5E3.3.6.git',
+23 silly cache add      gitUrl: 'git://github.com/twbs/bootstrap%40%5E3.3.6.git',
+23 silly cache add      shortcut: 'github:twbs/bootstrap%40%5E3.3.6',
+23 silly cache add      directUrl: 'https://raw.githubusercontent.com/twbs/bootstrap%40%5E3.3.6/master/package.json' } }
+24 verbose addRemoteGit caching github:twbs/bootstrap%40%5E3.3.6
+25 verbose addRemoteGit twbs/bootstrap%40%5E3.3.6 is a repository hosted by github
+26 silly tryGitProto attempting to clone git://github.com/twbs/bootstrap%40%5E3.3.6.git
+27 silly tryClone cloning twbs/bootstrap%40%5E3.3.6 via git://github.com/twbs/bootstrap%40%5E3.3.6.git
+28 verbose tryClone git-github-com-twbs-bootstrap-40-5E3-3-6-git-51af9fbdc6d8dfb23120e23af157313b not in flight; caching
+29 info git [ 'config', '--get', 'remote.origin.url' ]
+30 warn addRemoteGit Error: Command failed: git -c core.longpaths=true config --get remote.origin.url
+30 warn addRemoteGit
+30 warn addRemoteGit     at ChildProcess.exithandler (child_process.js:213:12)
+30 warn addRemoteGit     at emitTwo (events.js:100:13)
+30 warn addRemoteGit     at ChildProcess.emit (events.js:185:7)
+30 warn addRemoteGit     at maybeClose (internal/child_process.js:821:16)
+30 warn addRemoteGit     at Socket.<anonymous> (internal/child_process.js:319:11)
+30 warn addRemoteGit     at emitOne (events.js:90:13)
+30 warn addRemoteGit     at Socket.emit (events.js:182:7)
+30 warn addRemoteGit     at Pipe._onclose (net.js:469:12)
+30 warn addRemoteGit  twbs/bootstrap%40%5E3.3.6 resetting remote C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\git-github-com-twbs-bootstrap-40-5E3-3-6-git-51af9fbdc6d8dfb23120e23af157313b because of error: { [Error: Command failed: git -c core.longpaths=true config --get remote.origin.url
+30 warn addRemoteGit ]
+30 warn addRemoteGit   killed: false,
+30 warn addRemoteGit   code: 1,
+30 warn addRemoteGit   signal: null,
+30 warn addRemoteGit   cmd: 'git -c core.longpaths=true config --get remote.origin.url' }
+31 info resetRemote resetting C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\git-github-com-twbs-bootstrap-40-5E3-3-6-git-51af9fbdc6d8dfb23120e23af157313b for twbs/bootstrap%40%5E3.3.6
+32 silly gentlyRm C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\git-github-com-twbs-bootstrap-40-5E3-3-6-git-51af9fbdc6d8dfb23120e23af157313b is being purged
+33 verbose gentlyRm don't care about contents; nuking C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\git-github-com-twbs-bootstrap-40-5E3-3-6-git-51af9fbdc6d8dfb23120e23af157313b
+34 silly vacuum-fs purging C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\git-github-com-twbs-bootstrap-40-5E3-3-6-git-51af9fbdc6d8dfb23120e23af157313b
+35 silly vacuum-fs quitting because other entries in C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes
+36 info git [ 'clone',
+36 info git   '--template=C:\\Users\\Christian\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates',
+36 info git   '--mirror',
+36 info git   'git://github.com/twbs/bootstrap%40%5E3.3.6.git',
+36 info git   'C:\\Users\\Christian\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-twbs-bootstrap-40-5E3-3-6-git-51af9fbdc6d8dfb23120e23af157313b' ]
+37 error git clone --template=C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/twbs/bootstrap%40%5E3.3.6.git C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\git-github-com-twbs-bootstrap-40-5E3-3-6-git-51af9fbdc6d8dfb23120e23af157313b: Cloning into bare repository 'C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\git-github-com-twbs-bootstrap-40-5E3-3-6-git-51af9fbdc6d8dfb23120e23af157313b'...
+37 error git clone --template=C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/twbs/bootstrap%40%5E3.3.6.git C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\git-github-com-twbs-bootstrap-40-5E3-3-6-git-51af9fbdc6d8dfb23120e23af157313b: fatal: remote error:
+37 error git clone --template=C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/twbs/bootstrap%40%5E3.3.6.git C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\git-github-com-twbs-bootstrap-40-5E3-3-6-git-51af9fbdc6d8dfb23120e23af157313b:   twbs/bootstrap@^3.3.6 is not a valid repository name
+37 error git clone --template=C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/twbs/bootstrap%40%5E3.3.6.git C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\git-github-com-twbs-bootstrap-40-5E3-3-6-git-51af9fbdc6d8dfb23120e23af157313b:   Email support@github.com for help
+38 silly tryHTTPS attempting to clone git+https://github.com/twbs/bootstrap%40%5E3.3.6.git
+39 silly tryClone cloning twbs/bootstrap%40%5E3.3.6 via git+https://github.com/twbs/bootstrap%40%5E3.3.6.git
+40 verbose tryClone git-https-github-com-twbs-bootstrap-40-5E3-3-6-git-22c402042af6061d85f08e641a54eda5 not in flight; caching
+41 info git [ 'config', '--get', 'remote.origin.url' ]
+42 warn addRemoteGit Error: Command failed: git -c core.longpaths=true config --get remote.origin.url
+42 warn addRemoteGit
+42 warn addRemoteGit     at ChildProcess.exithandler (child_process.js:213:12)
+42 warn addRemoteGit     at emitTwo (events.js:100:13)
+42 warn addRemoteGit     at ChildProcess.emit (events.js:185:7)
+42 warn addRemoteGit     at maybeClose (internal/child_process.js:821:16)
+42 warn addRemoteGit     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+42 warn addRemoteGit  twbs/bootstrap%40%5E3.3.6 resetting remote C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-twbs-bootstrap-40-5E3-3-6-git-22c402042af6061d85f08e641a54eda5 because of error: { [Error: Command failed: git -c core.longpaths=true config --get remote.origin.url
+42 warn addRemoteGit ]
+42 warn addRemoteGit   killed: false,
+42 warn addRemoteGit   code: 1,
+42 warn addRemoteGit   signal: null,
+42 warn addRemoteGit   cmd: 'git -c core.longpaths=true config --get remote.origin.url' }
+43 info resetRemote resetting C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-twbs-bootstrap-40-5E3-3-6-git-22c402042af6061d85f08e641a54eda5 for twbs/bootstrap%40%5E3.3.6
+44 silly gentlyRm C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-twbs-bootstrap-40-5E3-3-6-git-22c402042af6061d85f08e641a54eda5 is being purged
+45 verbose gentlyRm don't care about contents; nuking C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-twbs-bootstrap-40-5E3-3-6-git-22c402042af6061d85f08e641a54eda5
+46 silly vacuum-fs purging C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-twbs-bootstrap-40-5E3-3-6-git-22c402042af6061d85f08e641a54eda5
+47 silly vacuum-fs quitting because other entries in C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes
+48 info git [ 'clone',
+48 info git   '--template=C:\\Users\\Christian\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates',
+48 info git   '--mirror',
+48 info git   'https://github.com/twbs/bootstrap%40%5E3.3.6.git',
+48 info git   'C:\\Users\\Christian\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-https-github-com-twbs-bootstrap-40-5E3-3-6-git-22c402042af6061d85f08e641a54eda5' ]
+49 error git clone --template=C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/twbs/bootstrap%40%5E3.3.6.git C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-twbs-bootstrap-40-5E3-3-6-git-22c402042af6061d85f08e641a54eda5: Cloning into bare repository 'C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-twbs-bootstrap-40-5E3-3-6-git-22c402042af6061d85f08e641a54eda5'...
+49 error git clone --template=C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/twbs/bootstrap%40%5E3.3.6.git C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-twbs-bootstrap-40-5E3-3-6-git-22c402042af6061d85f08e641a54eda5: fatal: unable to access 'https://github.com/twbs/bootstrap%40%5E3.3.6.git/': The requested URL returned error: 400
+50 silly trySSH attempting to clone git@github.com:twbs/bootstrap%40%5E3.3.6.git
+51 silly tryClone cloning twbs/bootstrap%40%5E3.3.6 via git@github.com:twbs/bootstrap%40%5E3.3.6.git
+52 verbose tryClone git-github-com-twbs-bootstrap-40-5E3-3-6-git-25b6157b9881f0215f74ee714b5fc5d9 not in flight; caching
+53 info git [ 'config', '--get', 'remote.origin.url' ]
+54 warn addRemoteGit Error: Command failed: git -c core.longpaths=true config --get remote.origin.url
+54 warn addRemoteGit
+54 warn addRemoteGit     at ChildProcess.exithandler (child_process.js:213:12)
+54 warn addRemoteGit     at emitTwo (events.js:100:13)
+54 warn addRemoteGit     at ChildProcess.emit (events.js:185:7)
+54 warn addRemoteGit     at maybeClose (internal/child_process.js:821:16)
+54 warn addRemoteGit     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+54 warn addRemoteGit  twbs/bootstrap%40%5E3.3.6 resetting remote C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\git-github-com-twbs-bootstrap-40-5E3-3-6-git-25b6157b9881f0215f74ee714b5fc5d9 because of error: { [Error: Command failed: git -c core.longpaths=true config --get remote.origin.url
+54 warn addRemoteGit ]
+54 warn addRemoteGit   killed: false,
+54 warn addRemoteGit   code: 1,
+54 warn addRemoteGit   signal: null,
+54 warn addRemoteGit   cmd: 'git -c core.longpaths=true config --get remote.origin.url' }
+55 info resetRemote resetting C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\git-github-com-twbs-bootstrap-40-5E3-3-6-git-25b6157b9881f0215f74ee714b5fc5d9 for twbs/bootstrap%40%5E3.3.6
+56 silly gentlyRm C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\git-github-com-twbs-bootstrap-40-5E3-3-6-git-25b6157b9881f0215f74ee714b5fc5d9 is being purged
+57 verbose gentlyRm don't care about contents; nuking C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\git-github-com-twbs-bootstrap-40-5E3-3-6-git-25b6157b9881f0215f74ee714b5fc5d9
+58 silly vacuum-fs purging C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\git-github-com-twbs-bootstrap-40-5E3-3-6-git-25b6157b9881f0215f74ee714b5fc5d9
+59 silly vacuum-fs quitting because other entries in C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes
+60 info git [ 'clone',
+60 info git   '--template=C:\\Users\\Christian\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates',
+60 info git   '--mirror',
+60 info git   'git@github.com:twbs/bootstrap%40%5E3.3.6.git',
+60 info git   'C:\\Users\\Christian\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-twbs-bootstrap-40-5E3-3-6-git-25b6157b9881f0215f74ee714b5fc5d9' ]
+61 error git clone --template=C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:twbs/bootstrap%40%5E3.3.6.git C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\git-github-com-twbs-bootstrap-40-5E3-3-6-git-25b6157b9881f0215f74ee714b5fc5d9: Cloning into bare repository 'C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\git-github-com-twbs-bootstrap-40-5E3-3-6-git-25b6157b9881f0215f74ee714b5fc5d9'...
+61 error git clone --template=C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:twbs/bootstrap%40%5E3.3.6.git C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\git-github-com-twbs-bootstrap-40-5E3-3-6-git-25b6157b9881f0215f74ee714b5fc5d9: Permission denied (publickey).
+61 error git clone --template=C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:twbs/bootstrap%40%5E3.3.6.git C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\git-github-com-twbs-bootstrap-40-5E3-3-6-git-25b6157b9881f0215f74ee714b5fc5d9: fatal: Could not read from remote repository.
+61 error git clone --template=C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:twbs/bootstrap%40%5E3.3.6.git C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\git-github-com-twbs-bootstrap-40-5E3-3-6-git-25b6157b9881f0215f74ee714b5fc5d9:
+61 error git clone --template=C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:twbs/bootstrap%40%5E3.3.6.git C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\git-github-com-twbs-bootstrap-40-5E3-3-6-git-25b6157b9881f0215f74ee714b5fc5d9: Please make sure you have the correct access rights
+61 error git clone --template=C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:twbs/bootstrap%40%5E3.3.6.git C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\git-github-com-twbs-bootstrap-40-5E3-3-6-git-25b6157b9881f0215f74ee714b5fc5d9: and the repository exists.
+62 silly fetchPackageMetaData Error: Command failed: git -c core.longpaths=true clone --template=C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:twbs/bootstrap%40%5E3.3.6.git C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\git-github-com-twbs-bootstrap-40-5E3-3-6-git-25b6157b9881f0215f74ee714b5fc5d9
+62 silly fetchPackageMetaData Cloning into bare repository 'C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\git-github-com-twbs-bootstrap-40-5E3-3-6-git-25b6157b9881f0215f74ee714b5fc5d9'...
+62 silly fetchPackageMetaData Permission denied (publickey).
+62 silly fetchPackageMetaData fatal: Could not read from remote repository.
+62 silly fetchPackageMetaData
+62 silly fetchPackageMetaData Please make sure you have the correct access rights
+62 silly fetchPackageMetaData and the repository exists.
+62 silly fetchPackageMetaData
+62 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:213:12)
+62 silly fetchPackageMetaData     at emitTwo (events.js:100:13)
+62 silly fetchPackageMetaData     at ChildProcess.emit (events.js:185:7)
+62 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:821:16)
+62 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+62 silly fetchPackageMetaData  error for bootstrap@github:twbs/bootstrap%40%5E3.3.6 { [Error: Command failed: git -c core.longpaths=true clone --template=C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:twbs/bootstrap%40%5E3.3.6.git C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\git-github-com-twbs-bootstrap-40-5E3-3-6-git-25b6157b9881f0215f74ee714b5fc5d9
+62 silly fetchPackageMetaData Cloning into bare repository 'C:\Users\Christian\AppData\Roaming\npm-cache\_git-remotes\git-github-com-twbs-bootstrap-40-5E3-3-6-git-25b6157b9881f0215f74ee714b5fc5d9'...
+62 silly fetchPackageMetaData Permission denied (publickey).
+62 silly fetchPackageMetaData fatal: Could not read from remote repository.
+62 silly fetchPackageMetaData
+62 silly fetchPackageMetaData Please make sure you have the correct access rights
+62 silly fetchPackageMetaData and the repository exists.
+62 silly fetchPackageMetaData ]
+62 silly fetchPackageMetaData   killed: false,
+62 silly fetchPackageMetaData   code: 128,
+62 silly fetchPackageMetaData   signal: null,
+62 silly fetchPackageMetaData   cmd: 'git -c core.longpaths=true clone --template=C:\\Users\\Christian\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates --mirror git@github.com:twbs/bootstrap%40%5E3.3.6.git C:\\Users\\Christian\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-twbs-bootstrap-40-5E3-3-6-git-25b6157b9881f0215f74ee714b5fc5d9' }
+63 silly rollbackFailedOptional Starting
+64 silly rollbackFailedOptional Finishing
+65 silly runTopLevelLifecycles Starting
+66 silly runTopLevelLifecycles Finishing
+67 silly install printInstalled
+68 verbose stack Error: Unsupported URL Type: npm:aurelia-http-client@^1.0.0-beta.1.1.2
+68 verbose stack     at parseUrl (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-package-arg\npa.js:168:13)
+68 verbose stack     at npa (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-package-arg\npa.js:75:12)
+68 verbose stack     at module.exports (C:\Program Files\nodejs\node_modules\npm\node_modules\realize-package-specifier\index.js:12:15)
+68 verbose stack     at addDependency (C:\Program Files\nodejs\node_modules\npm\lib\install\deps.js:376:3)
+68 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install\deps.js:334:5
+68 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:52:35
+68 verbose stack     at Array.forEach (native)
+68 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:52:11
+68 verbose stack     at Array.forEach (native)
+68 verbose stack     at asyncMap (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:51:8)
+69 verbose cwd C:\Users\Christian\batcave\startbootstrap\blog
+70 error Windows_NT 10.0.10586
+71 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+72 error node v5.5.0
+73 error npm  v3.3.12
+74 error Unsupported URL Type: npm:aurelia-http-client@^1.0.0-beta.1.1.2
+75 error If you need help, you may report this error at:
+75 error     <https://github.com/npm/npm/issues>
+76 verbose exit [ 1, true ]
